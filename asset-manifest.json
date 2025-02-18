@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.0f875d6c.css",
-    "main.js": "/Portfolio/static/js/main.b79c5446.js",
+    "main.css": "/Portfolio/static/css/main.d0ea9d4d.css",
+    "main.js": "/Portfolio/static/js/main.3c89a00a.js",
     "static/js/453.b9ea0b77.chunk.js": "/Portfolio/static/js/453.b9ea0b77.chunk.js",
     "static/media/FondoMidnight.png": "/Portfolio/static/media/FondoMidnight.adc2d2a5357297a3d821.png",
     "static/media/MockupIphoneMidnight.png": "/Portfolio/static/media/MockupIphoneMidnight.d057ad6d97940ef4aa7d.png",
@@ -13,12 +13,12 @@
     "static/media/arrow-90deg-right.svg": "/Portfolio/static/media/arrow-90deg-right.4bb222909303e76de5e7a0185c2853fb.svg",
     "static/media/arrow-right.svg": "/Portfolio/static/media/arrow-right.03aeeebf11f99fe7b5965d5cc1387634.svg",
     "static/media/arrow-up-right.svg": "/Portfolio/static/media/arrow-up-right.17a07f4c2c7af692630a3c12b14a4d85.svg",
-    "main.0f875d6c.css.map": "/Portfolio/static/css/main.0f875d6c.css.map",
-    "main.b79c5446.js.map": "/Portfolio/static/js/main.b79c5446.js.map",
+    "main.d0ea9d4d.css.map": "/Portfolio/static/css/main.d0ea9d4d.css.map",
+    "main.3c89a00a.js.map": "/Portfolio/static/js/main.3c89a00a.js.map",
     "453.b9ea0b77.chunk.js.map": "/Portfolio/static/js/453.b9ea0b77.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0f875d6c.css",
-    "static/js/main.b79c5446.js"
+    "static/css/main.d0ea9d4d.css",
+    "static/js/main.3c89a00a.js"
   ]
 }
