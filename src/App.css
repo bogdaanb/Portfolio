@@ -1,0 +1,6 @@
+body {
+  background-color: #f2f0ef;
+  touch-action: manipulation;
+
+  /* Esto oculta la barra de desplazamiento */
+}
