@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.0f875d6c.css",
-    "main.js": "/Portfolio/static/js/main.6d7a8b70.js",
-    "static/js/453.b9ea0b77.chunk.js": "/Portfolio/static/js/453.b9ea0b77.chunk.js",
-    "static/media/FondoMidnight.png": "/Portfolio/static/media/FondoMidnight.adc2d2a5357297a3d821.png",
-    "static/media/MockupIphoneMidnight.png": "/Portfolio/static/media/MockupIphoneMidnight.d057ad6d97940ef4aa7d.png",
-    "static/media/profpic.jpg": "/Portfolio/static/media/profpic.79220716749faa598f5b.jpg",
-    "static/media/Curvy.ttf": "/Portfolio/static/media/Curvy.45de1330219bda1946f4.ttf",
-    "static/media/midnighticon.png": "/Portfolio/static/media/midnighticon.74994e2386186c4fb5b9.png",
-    "static/media/LOGO_TRANSP.svg": "/Portfolio/static/media/LOGO_TRANSP.2ac3e2abe5c0b492476391645ed22f77.svg",
-    "index.html": "/Portfolio/index.html",
-    "static/media/arrow-90deg-right.svg": "/Portfolio/static/media/arrow-90deg-right.4bb222909303e76de5e7a0185c2853fb.svg",
-    "static/media/arrow-right.svg": "/Portfolio/static/media/arrow-right.03aeeebf11f99fe7b5965d5cc1387634.svg",
-    "static/media/arrow-up-right.svg": "/Portfolio/static/media/arrow-up-right.17a07f4c2c7af692630a3c12b14a4d85.svg",
-    "main.0f875d6c.css.map": "/Portfolio/static/css/main.0f875d6c.css.map",
-    "main.6d7a8b70.js.map": "/Portfolio/static/js/main.6d7a8b70.js.map",
-    "453.b9ea0b77.chunk.js.map": "/Portfolio/static/js/453.b9ea0b77.chunk.js.map"
+    "main.css": "/static/css/main.094cada6.css",
+    "main.js": "/static/js/main.02824c7b.js",
+    "static/js/453.b9ea0b77.chunk.js": "/static/js/453.b9ea0b77.chunk.js",
+    "static/media/FondoMidnight.png": "/static/media/FondoMidnight.adc2d2a5357297a3d821.png",
+    "static/media/MockupIphoneMidnight.png": "/static/media/MockupIphoneMidnight.d057ad6d97940ef4aa7d.png",
+    "static/media/profpic.jpg": "/static/media/profpic.79220716749faa598f5b.jpg",
+    "static/media/Curvy.ttf": "/static/media/Curvy.45de1330219bda1946f4.ttf",
+    "static/media/midnighticon.png": "/static/media/midnighticon.74994e2386186c4fb5b9.png",
+    "static/media/LOGO_TRANSP.svg": "/static/media/LOGO_TRANSP.2ac3e2abe5c0b492476391645ed22f77.svg",
+    "index.html": "/index.html",
+    "static/media/arrow-90deg-right.svg": "/static/media/arrow-90deg-right.4bb222909303e76de5e7a0185c2853fb.svg",
+    "static/media/arrow-right.svg": "/static/media/arrow-right.03aeeebf11f99fe7b5965d5cc1387634.svg",
+    "static/media/arrow-up-right.svg": "/static/media/arrow-up-right.17a07f4c2c7af692630a3c12b14a4d85.svg",
+    "main.094cada6.css.map": "/static/css/main.094cada6.css.map",
+    "main.02824c7b.js.map": "/static/js/main.02824c7b.js.map",
+    "453.b9ea0b77.chunk.js.map": "/static/js/453.b9ea0b77.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0f875d6c.css",
-    "static/js/main.6d7a8b70.js"
+    "static/css/main.094cada6.css",
+    "static/js/main.02824c7b.js"
   ]
 }
