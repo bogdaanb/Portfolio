@@ -42,7 +42,7 @@ const App = () => {
   }, [isLightMode]);
 
   return (
-    <Router>
+    <Router basename="/bogdaanb/Portfolio">
       <Routes>
         <Route
           path="/"
