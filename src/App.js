@@ -45,12 +45,11 @@ const App = () => {
     <Router basename="/bogdaanb/Portfolio">
       <Routes>
         <Route
-          path="/"
           element={
             <MainLayout
               isLightMode={isLightMode}
               setIsLightMode={setIsLightMode}
-              hoverState={hoverState} // 🔹 Fix: Now hoverState is passed
+              hoverState={hoverState} // 
               setHoverState={setHoverState}
             />
           }
