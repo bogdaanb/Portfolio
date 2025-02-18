@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.094cada6.css",
-    "main.js": "/static/js/main.02824c7b.js",
-    "static/js/453.b9ea0b77.chunk.js": "/static/js/453.b9ea0b77.chunk.js",
-    "static/media/FondoMidnight.png": "/static/media/FondoMidnight.adc2d2a5357297a3d821.png",
-    "static/media/MockupIphoneMidnight.png": "/static/media/MockupIphoneMidnight.d057ad6d97940ef4aa7d.png",
-    "static/media/profpic.jpg": "/static/media/profpic.79220716749faa598f5b.jpg",
-    "static/media/Curvy.ttf": "/static/media/Curvy.45de1330219bda1946f4.ttf",
-    "static/media/midnighticon.png": "/static/media/midnighticon.74994e2386186c4fb5b9.png",
-    "static/media/LOGO_TRANSP.svg": "/static/media/LOGO_TRANSP.2ac3e2abe5c0b492476391645ed22f77.svg",
-    "index.html": "/index.html",
-    "static/media/arrow-90deg-right.svg": "/static/media/arrow-90deg-right.4bb222909303e76de5e7a0185c2853fb.svg",
-    "static/media/arrow-right.svg": "/static/media/arrow-right.03aeeebf11f99fe7b5965d5cc1387634.svg",
-    "static/media/arrow-up-right.svg": "/static/media/arrow-up-right.17a07f4c2c7af692630a3c12b14a4d85.svg",
-    "main.094cada6.css.map": "/static/css/main.094cada6.css.map",
-    "main.02824c7b.js.map": "/static/js/main.02824c7b.js.map",
-    "453.b9ea0b77.chunk.js.map": "/static/js/453.b9ea0b77.chunk.js.map"
+    "main.css": "/bogdaanb/Portfolio/static/css/main.713bf59c.css",
+    "main.js": "/bogdaanb/Portfolio/static/js/main.e3e36371.js",
+    "static/js/453.b9ea0b77.chunk.js": "/bogdaanb/Portfolio/static/js/453.b9ea0b77.chunk.js",
+    "static/media/FondoMidnight.png": "/bogdaanb/Portfolio/static/media/FondoMidnight.adc2d2a5357297a3d821.png",
+    "static/media/MockupIphoneMidnight.png": "/bogdaanb/Portfolio/static/media/MockupIphoneMidnight.d057ad6d97940ef4aa7d.png",
+    "static/media/profpic.jpg": "/bogdaanb/Portfolio/static/media/profpic.79220716749faa598f5b.jpg",
+    "static/media/Curvy.ttf": "/bogdaanb/Portfolio/static/media/Curvy.45de1330219bda1946f4.ttf",
+    "static/media/midnighticon.png": "/bogdaanb/Portfolio/static/media/midnighticon.74994e2386186c4fb5b9.png",
+    "static/media/LOGO_TRANSP.svg": "/bogdaanb/Portfolio/static/media/LOGO_TRANSP.2ac3e2abe5c0b492476391645ed22f77.svg",
+    "index.html": "/bogdaanb/Portfolio/index.html",
+    "static/media/arrow-90deg-right.svg": "/bogdaanb/Portfolio/static/media/arrow-90deg-right.4bb222909303e76de5e7a0185c2853fb.svg",
+    "static/media/arrow-right.svg": "/bogdaanb/Portfolio/static/media/arrow-right.03aeeebf11f99fe7b5965d5cc1387634.svg",
+    "static/media/arrow-up-right.svg": "/bogdaanb/Portfolio/static/media/arrow-up-right.17a07f4c2c7af692630a3c12b14a4d85.svg",
+    "main.713bf59c.css.map": "/bogdaanb/Portfolio/static/css/main.713bf59c.css.map",
+    "main.e3e36371.js.map": "/bogdaanb/Portfolio/static/js/main.e3e36371.js.map",
+    "453.b9ea0b77.chunk.js.map": "/bogdaanb/Portfolio/static/js/453.b9ea0b77.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.094cada6.css",
-    "static/js/main.02824c7b.js"
+    "static/css/main.713bf59c.css",
+    "static/js/main.e3e36371.js"
   ]
 }
