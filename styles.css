@@ -34,7 +34,7 @@ body {
     margin: 0;
     margin-left: 1vh;
     margin-right: 1vh;
-
+    position: sticky;
 }
 
 .headerElement {
@@ -62,16 +62,16 @@ body {
     font-size: 12em;
     font-family: 'Marcellus', serif;
     color: #FAF7F3;
-    margin:  auto;
+    margin: auto;
     text-align: center;
     height: 40vh;
     line-height: 60vh;
 }
 
 .mainContent {
-    background-color: #90a9b7;
-    height: 90vh;
-    width: 99%;
+    background: #D4AA7D;
+    background: linear-gradient(48deg, rgba(212, 170, 125, 1) 0%, rgba(179, 130, 79, 1) 100%);
+    width: 97%;
     margin: 10vh auto 0;
     border-radius: 0.75rem;
 
@@ -81,7 +81,6 @@ body {
     grid-template-areas:
         "title title"
         "project1 project2";
-    gap: 2rem;
 }
 
 .projectsTitle {
@@ -90,10 +89,14 @@ body {
     text-align: center;
     font-size: 4em;
     margin-top: 1.7em;
+    padding-bottom: 1em;
 }
 
 .projectsSection:nth-of-type(1) {
     grid-area: project1;
+    background-image: url(/img/Mockup1.webp);
+    background-size: cover;
+    background-position: center;
 }
 
 .projectsSection:nth-of-type(2) {
@@ -102,5 +105,28 @@ body {
 
 .projectsSection {
     background-color: red;
-    height: 100%;
+    height: 90%;
+    image-rendering: optimizeSpeed;
+    margin: 0 1em;
+    border-radius: 2rem;
+
 }
+
+.projectsSection img {
+    object-fit: cover;
+    width: 100%;
+    border-radius: 1em;
+}
+
+.projectsSection img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 1em;
+    transition: opacity 0.3s ease;
+}
+
+.projectsSection:hover img {
+    opacity: 0;
+}
+
