@@ -16,7 +16,7 @@ img {
 
 body {
     background-color: #272727;
-        font-family: 'Marcellus', serif;
+    font-family: 'Marcellus', serif;
 }
 
 .firstContent {
@@ -77,8 +77,7 @@ body {
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
         "title title"
-        "project1 project2"
-        "button button";
+        "project1 project2";
     padding: 2em;
 }
 
@@ -110,6 +109,10 @@ body {
     image-rendering: optimizeSpeed;
     margin: 0 1em;
     border-radius: 1rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .projectsSection img {
@@ -118,30 +121,15 @@ body {
     height: 100%;
     border-radius: 1em;
     transition: opacity 0.3s ease;
+    z-index: 1;
 }
 
 .projectsSection:hover img {
     opacity: 0;
 }
 
-.moreProjects {
-    grid-area: button;
-    background-color: #3B3B3B;
-    border: #525252 0.1em solid;
-    color: white;
-    width: 10em;
-    height: 3em;
-    margin: 0 auto;
-    margin-bottom: 1em;
-    border-radius: 1em;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
 
-.moreProjects:hover {
-    background-color: #525252;
-    transform: translateY(-2px);
-}
+
 
 .section-container {
     width: 97%;
@@ -183,5 +171,24 @@ body {
 
 .highlight {
     font-weight: 600;
-    color: #3B3B3B;
+    color: #D2D8B3;
+}
+
+.info-text {
+    background-color: rgba(39, 39, 39, 0.9);
+    border: #525252 0.1em solid;
+    color: white;
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5em;
+    width: 10vw;
+    font-family: 'IBM Plex Sans', sans-serif;
+    pointer-events: none;
+}
+
+.tech-icons{
+    margin-top: 0.25em;
 }
