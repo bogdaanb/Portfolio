@@ -1,37 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vlad Bogdan Baciu</title>
-    <link rel="stylesheet" href="/styles.css" />
-  </head>
-  <body>
-    <main class="firstContent">
-      <header class="header">
-        <a class="headerElement" href="#">Bogdan</a>
-      </header>
-      <header class="header">
-        <a class="headerElement" href="#">Sobre mi</a>
-        <a class="headerElement" href="#">Proyectos</a>
-        <a class="headerElement" href="#">Servicios</a>
-      </header>
-      <header class="header">
-        <a class="headerElement" href="#">Contacto</a>
-      </header>
-    </main>
-    <p class="mainTitle">Bogdan Baciu</p>
-    
-    <article class="mainContent">
-      <p class="projectsTitle">Algunos proyectos destacados</p>
-      <section class="projectsSection">
-        <img src="/img/MacBook.webp" alt="">
-      </section>
-      <section class="projectsSection">
-        <img src="/img/Frame 1.webp" alt="">
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vlad Bogdan Baciu</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+
+<body>
+  <main class="firstContent">
+    <header class="header">
+      <a class="headerElement" href="#">Bogdan</a>
+    </header>
+    <header class="header">
+      <a class="headerElement" href="#titulo">Proyectos</a>
+      <a class="headerElement" href="#conoceme">Conóceme</a>
+      <a class="headerElement" href="#">Servicios</a>
+    </header>
+    <header class="header">
+      <a class="headerElement" href="#">Contacto</a>
+    </header>
+  </main>
+
+  <p class="mainTitle">Bogdan Baciu</p>
+
+  <article class="mainContent">
+    <p id="titulo" class="projectsTitle">Algunos proyectos destacados</p>
+    <section class="projectsSection">
+      <img src="/img/MacBook.webp" alt="Proyecto 1">
+    </section>
+    <section class="projectsSection">
+      <img src="/img/Frame 1.webp" alt="Proyecto 2">
+    </section>
+    <button class="moreProjects" type="button">Ver más...</button>
+  </article>
+
+  <main class="section-container">
+    <article id="conoceme" class="aboutContent">
+      <p class="aboutTitle">Conóceme</p>
+      <section class="aboutText">
+        <p>¡Hola! Soy <span class="highlight">Bogdan</span>, tengo 23 años y soy un diseñador y desarrollador de aplicaciones.</p>
+        
+        <p>Nací en Cluj-Napoca <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16px" height="16px" viewBox="0 0 36 36" aria-hidden="true" role="img" class="iconify iconify--twemoji" preserveAspectRatio="xMidYMid meet"><path fill="#002B7F" d="M4 5a4 4 0 0 0-4 4v18a4 4 0 0 0 4 4h8V5H4z"/><path fill="#FCD116" d="M12 5h12v26H12z"/><path fill="#CE1126" d="M32 5h-8v26h8a4 4 0 0 0 4-4V9a4 4 0 0 0-4-4z"/></svg> y crecí en Alicante 🇪🇸. Este cambio cultural moldeó mi visión creativa y mi forma de diseñar.</p>
+        
+        <p>💻 Creo experiencias digitales que combinan estética moderna con funcionalidad.</p>
       </section>
     </article>
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.1/dist/gsap.min.js"></script>
-    <script src="/main.js"></script>
-  </body>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.1/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.1/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.29/bundled/lenis.min.js"></script>
+  <script src="/main.js"></script>
+</body>
+
 </html>

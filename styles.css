@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Marcellus', serif;
 
 }
 
@@ -16,9 +16,8 @@ img {
 
 body {
     background-color: #272727;
+        font-family: 'Marcellus', serif;
 }
-
-
 
 .firstContent {
     padding-top: 5vh;
@@ -45,7 +44,6 @@ body {
     height: 50%;
 }
 
-
 .header:nth-child(1) {
     margin: 0;
     margin-left: auto;
@@ -65,7 +63,7 @@ body {
     margin: auto;
     text-align: center;
     height: 40vh;
-    line-height: 60vh;
+    line-height: 50vh;
 }
 
 .mainContent {
@@ -74,13 +72,14 @@ body {
     width: 97%;
     margin: 10vh auto 0;
     border-radius: 0.75rem;
-
     display: grid;
     grid-template-rows: auto 1fr;
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
         "title title"
-        "project1 project2";
+        "project1 project2"
+        "button button";
+    padding: 2em;
 }
 
 .projectsTitle {
@@ -101,17 +100,17 @@ body {
 
 .projectsSection:nth-of-type(2) {
     grid-area: project2;
+    background-image: url(/img/Mockup2.webp);
+    background-size: cover;
+    background-position: center;
 }
 
 .projectsSection {
-    background-color: red;
     height: 90%;
     image-rendering: optimizeSpeed;
     margin: 0 1em;
-    border-radius: 2rem;
-
+    border-radius: 1rem;
 }
-
 
 .projectsSection img {
     object-fit: cover;
@@ -125,3 +124,64 @@ body {
     opacity: 0;
 }
 
+.moreProjects {
+    grid-area: button;
+    background-color: #3B3B3B;
+    border: #525252 0.1em solid;
+    color: white;
+    width: 10em;
+    height: 3em;
+    margin: 0 auto;
+    margin-bottom: 1em;
+    border-radius: 1em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.moreProjects:hover {
+    background-color: #525252;
+    transform: translateY(-2px);
+}
+
+.section-container {
+    width: 97%;
+    margin: 10vh auto 0;
+    border-radius: 0.75rem;
+    overflow: hidden;
+}
+
+.aboutContent {
+    background: #D2D8B3;
+    background: linear-gradient(294deg, rgba(210, 216, 179, 1) 0%, rgba(139, 143, 104, 1) 100%);
+    padding: 3em 2em;
+}
+
+.aboutTitle {
+    color: #FAF7F3;
+    text-align: center;
+    font-size: 3.5em;
+    margin-bottom: 1.5em;
+}
+
+.aboutText {
+    color: #FAF7F3;
+    font-size: 1.1em;
+    line-height: 1.8;
+    max-width: 700px;
+    margin: 0 auto;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.aboutText p {
+    margin-bottom: 1.2em;
+    text-align: left;
+}
+
+.aboutText p:last-child {
+    margin-bottom: 0;
+}
+
+.highlight {
+    font-weight: 600;
+    color: #3B3B3B;
+}
