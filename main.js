@@ -51,3 +51,40 @@ proyectos.forEach(project => {
     gsap.delayedCall(0.3, () => tl.reverse());
   });
 });
+
+
+
+
+console.log("GSAP cargado:", typeof gsap !== 'undefined' ? '✅' : '❌');
+console.log("ScrollTrigger cargado:", typeof ScrollTrigger !== 'undefined' ? '✅' : '❌');
+console.log("Lenis cargado:", typeof Lenis !== 'undefined' ? '✅' : '❌');
+
+console.log("Proyectos encontrados:", proyectos.length);
+
+proyectos.forEach((project, index) => {
+  const infoText = project.querySelectorAll(".info-text");
+  console.log(`Proyecto ${index + 1}:`, {
+    elemento: project,
+    infoText: infoText.length,
+    offsetHeight: project.offsetHeight
+  });
+});
+
+console.log("\n=== Prueba manual ===");
+console.log("Ejecuta: document.querySelector('.projectsSection').dispatchEvent(new Event('mouseenter'))");
+
+if (typeof gsap !== 'undefined') {
+  gsap.globalTimeline.getChildren().forEach((tween, i) => {
+    console.log(`Timeline ${i}:`, tween);
+  });
+}
+
+const firstProject = document.querySelector(".projectsSection");
+if (firstProject) {
+  const styles = window.getComputedStyle(firstProject);
+  console.log("Estilos del primer proyecto:", {
+    position: styles.position,
+    display: styles.display,
+    height: styles.height
+  });
+}
