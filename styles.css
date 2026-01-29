@@ -92,14 +92,14 @@ body {
 
 .projectsSection:nth-of-type(1) {
     grid-area: project1;
-    background-image: url(./img/Mockup1.webp);
+    background-image: url(./img/WEATHER1.webp);
     background-size: cover;
     background-position: center;
 }
 
 .projectsSection:nth-of-type(2) {
     grid-area: project2;
-    background-image: url(./img/Mockup2.webp);
+    background-image: url(./img/TR2.webp);
     background-size: cover;
     background-position: center;
 }
@@ -131,43 +131,7 @@ body {
 
 
 
-.section-container {
-    width: 97%;
-    margin: 10vh auto 0;
-    border-radius: 0.75rem;
-    overflow: hidden;
-}
 
-.aboutContent {
-    background: #D2D8B3;
-    background: linear-gradient(294deg, rgba(210, 216, 179, 1) 0%, rgba(139, 143, 104, 1) 100%);
-    padding: 3em 2em;
-}
-
-.aboutTitle {
-    color: #FAF7F3;
-    text-align: center;
-    font-size: 3.5em;
-    margin-bottom: 1.5em;
-}
-
-.aboutText {
-    color: #FAF7F3;
-    font-size: 1.1em;
-    line-height: 1.8;
-    max-width: 700px;
-    margin: 0 auto;
-    font-family: 'IBM Plex Sans', sans-serif;
-}
-
-.aboutText p {
-    margin-bottom: 1.2em;
-    text-align: left;
-}
-
-.aboutText p:last-child {
-    margin-bottom: 0;
-}
 
 .highlight {
     font-weight: 600;
@@ -189,6 +153,50 @@ body {
     pointer-events: none;
 }
 
-.tech-icons{
+.tech-icons {
     margin-top: 0.25em;
+}
+
+.aboutContainer{
+    height: 20vh;
+    width: 97%;
+    margin: 0 auto;
+    margin-top: 10vh;
+    border-radius: 0.75em;
+
+}
+
+.about-content-wrapper{
+    display: flex;
+    height: 50vh;
+    border-radius: 0.75em;
+
+}
+
+.about-content{
+    width: 97%;
+    border-radius: 0.75em;
+    border: 1px solid #525252;
+    height: 40vh;
+
+}
+
+.about-content:nth-child(1){
+    width: 30%;
+}
+
+.infiniteCarrousel{
+    border-radius: 0.75em;
+    border: 1px solid #525252;
+    height: 20vh;
+
+}
+
+.imagen-personal{
+    width: 97%;
+    height: 97%;
+    object-fit: cover;
+    object-position: bottom;
+    overflow:auto;
+    zoom: 200%;
 }
