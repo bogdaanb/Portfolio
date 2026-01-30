@@ -624,8 +624,8 @@ body {
     }
 
     .header:nth-child(1) {
-        width: auto;
-        min-width: auto;
+        width: 20%;
+        min-width: 20%;
         flex: 1;
         border: #525252 0.1em solid;
         background-color: #3B3B3B;
