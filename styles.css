@@ -24,15 +24,13 @@ body {
     overflow-x: hidden;
 }
 
+
 .navbar {
     position: sticky;
     top: 0;
     z-index: 100;
     height: 5vh;
-    min-height: 48px;
-    background-color: #3B3B3B;
-    border: #525252 0.1em solid;
-    border-radius: 0.25rem;
+    min-height: 10vh;
     display: flex;
     align-items: center;
     padding: 0 1em;
@@ -43,11 +41,14 @@ body {
 .navLogo {
     color: #FAF7F3;
     text-decoration: none;
-    font-size: 1.25em;
+    font-size: 2.5vh;
     font-family: 'Marcellus', serif;
     padding: 0 0.5em;
-    white-space: nowrap;
     transition: color 0.3s ease;
+    background-color: #3B3B3B;
+    border: #525252 0.1vh solid;
+    border-radius: 0.5vh;
+    padding: 1vh;
 }
 
 .navLogo:hover {
@@ -58,14 +59,18 @@ body {
     display: flex;
     gap: 0.5em;
     align-items: center;
-    flex: 1;
     justify-content: center;
+    background-color: #3B3B3B;
+    border: #525252 0.1vh solid;
+    border-radius: 0.5vh;
+    padding: 1vh;
+    margin: auto;
 }
 
 .navLink {
     color: #FAF7F3;
     text-decoration: none;
-    font-size: 1.25em;
+    font-size: 2.5vh;
     font-family: 'Marcellus', serif;
     padding: 0 1em;
     height: 100%;
@@ -73,22 +78,20 @@ body {
     align-items: center;
     transition: color 0.3s ease;
     white-space: nowrap;
+    
 }
 
 .navLink:hover {
     color: #D2D8B3;
 }
 
-.navRight {
-    margin-left: auto;
-}
 
-/* Hamburger - hidden on desktop */
+
 .hamburger {
     display: none;
     flex-direction: column;
     cursor: pointer;
-    gap: 5px;
+    gap: 1vh;
     background: none;
     border: none;
     padding: 0.5em;
@@ -97,15 +100,15 @@ body {
 
 .hamburger span {
     display: block;
-    width: 25px;
-    height: 3px;
+    width: 5vw;
+    height: 0.5vw;
     background-color: #FAF7F3;
-    border-radius: 2px;
+    border-radius: 1vh;
     transition: all 0.3s ease;
 }
 
 .hamburger.active span:nth-child(1) {
-    transform: rotate(45deg) translate(5px, 8px);
+    transform: rotate(45deg) translate(0.5vh, 1vh);
 }
 
 .hamburger.active span:nth-child(2) {
@@ -113,10 +116,9 @@ body {
 }
 
 .hamburger.active span:nth-child(3) {
-    transform: rotate(-45deg) translate(5px, -8px);
+    transform: rotate(-45deg) translate(0.5vh, -1vh);
 }
 
-/* Mobile nav dropdown - hidden by default */
 .navMobile {
     display: none;
     position: fixed;
@@ -126,8 +128,8 @@ body {
     background: linear-gradient(135deg, #3B3B3B 0%, #2a2a2a 100%);
     flex-direction: column;
     z-index: 99;
-    border-bottom: 1px solid #525252;
-    border-top: 1px solid #525252;
+    border-bottom: 0.3vh solid #525252;
+    border-top: 0.3vh solid #525252;
 }
 
 .navMobile.active {
@@ -140,7 +142,7 @@ body {
     padding: 1.2em 1.5em;
     font-size: 1.1em;
     font-family: 'Marcellus', serif;
-    border-bottom: 1px solid #525252;
+    border-bottom: 0.3vh solid #525252;
     text-align: left;
     transition: all 0.3s ease;
     display: block;
@@ -151,7 +153,6 @@ body {
     color: #D2D8B3;
 }
 
-/* ========== TITULO PRINCIPAL ========== */
 .mainTitle {
     font-size: clamp(3rem, 11vw, 12em);
     font-family: 'Marcellus', serif;
@@ -211,7 +212,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 300px;
+    min-height: 30vh;
 }
 
 .projectsSection img {
@@ -239,7 +240,6 @@ body {
     align-items: center;
     gap: 0.5em;
     width: 10vw;
-    min-width: 150px;
     font-family: 'IBM Plex Sans', sans-serif;
     pointer-events: none;
     padding: 1em;
@@ -276,7 +276,7 @@ body {
 
 .serviceCard {
     background-color: rgba(39, 39, 39, 0.95);
-    border: 1px solid #525252;
+    border: 0.4vh solid #525252;
     border-radius: 1rem;
     padding: 2em;
     display: flex;
@@ -305,14 +305,14 @@ body {
 }
 
 .serviceCard:hover {
-    transform: translateY(-8px);
+    transform: translateY(-2vh);
     border-color: #D2D8B3;
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 2vh 4vh rgba(0, 0, 0, 0.3);
 }
 
 .serviceIcon {
-    width: 80px;
-    height: 80px;
+    width: 10vh;
+    height: 10vh;
     margin-bottom: 1.5em;
     display: flex;
     align-items: center;
@@ -359,12 +359,13 @@ body {
 
 .about-content {
     border-radius: 0.75em;
-    border: 1px solid #525252;
     color: #ffffff;
     font-size: clamp(0.95em, 2vw, 1.2rem);
     padding: 2em;
     background-color: #121212;
     line-height: 1.6;
+    border: 0.3vh solid #525252;
+
 }
 
 .about-content h1 {
@@ -376,7 +377,7 @@ body {
 .infiniteCarrousel {
     margin-top: 2em;
     border-radius: 0.75em;
-    border: 1px solid #525252;
+    border: 0.3vh solid #525252;
     background-color: #121212;
     overflow: hidden;
     position: relative;
@@ -398,7 +399,7 @@ body {
 }
 
 .carousel-track img {
-    width: clamp(50px, 8vw, 100px);
+    width: 8vw;
     height: auto;
     flex-shrink: 0;
 }
@@ -424,12 +425,12 @@ body {
     width: 100%;
     margin-top: 10vh;
     padding: 4em 2em;
-    border-top: 1px solid #525252;
+    border-top: 0.3vh solid #525252;
 }
 
 .contactContainer {
     width: 97%;
-    max-width: 1200px;
+    max-width: 80vw;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -469,7 +470,7 @@ body {
 .formInput {
     width: 100%;
     padding: 1em;
-    border: 1px solid #525252;
+    border: 0.2vh solid #525252;
     background-color: rgba(39, 39, 39, 0.5);
     color: #FAF7F3;
     border-radius: 0.5rem;
@@ -482,12 +483,12 @@ body {
     outline: none;
     border-color: #D2D8B3;
     background-color: rgba(39, 39, 39, 0.8);
-    box-shadow: 0 0 0 3px rgba(210, 216, 179, 0.1);
+    box-shadow: 0 0 0 0.2vh rgba(210, 216, 179, 0.1);
 }
 
 .formTextarea {
     resize: vertical;
-    min-height: 150px;
+    min-height: 20vh;
     font-family: 'IBM Plex Sans', sans-serif;
 }
 
@@ -521,13 +522,13 @@ body {
 }
 
 .submitBtn:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 8px 16px rgba(212, 170, 125, 0.3);
+    transform: translateY(-0.3vh);
+    box-shadow: 0 2vh 4vh rgba(212, 170, 125, 0.3);
 }
 
 .submitBtn:hover::before {
-    width: 300px;
-    height: 300px;
+    width: 30vh;
+    height: 30vh;
 }
 
 .contactSocial {
@@ -557,11 +558,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 60px;
-    height: 60px;
+    width: 8vh;
+    height: 8vh;
     border-radius: 50%;
     background-color: rgba(212, 170, 125, 0.1);
-    border: 2px solid #525252;
+    border: 0.4vh solid #525252;
     transition: all 0.3s ease;
     text-decoration: none;
 }
@@ -569,8 +570,8 @@ body {
 .socialLink:hover {
     background-color: rgba(212, 170, 125, 0.2);
     border-color: #D2D8B3;
-    transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    transform: translateY(-0.3vh);
+    box-shadow: 0 1.5vh 3vh rgba(0, 0, 0, 0.3);
 }
 
 .socialLink svg {
@@ -582,7 +583,7 @@ body {
 }
 
 .contactFooter {
-    border-top: 1px solid #525252;
+    border-top: 0.3vh solid #525252;
     padding-top: 2em;
     text-align: center;
 }
@@ -596,10 +597,10 @@ body {
 
 .heart {
     display: inline-block;
-    animation: heartbeat 1.5s ease-in-out infinite;
+    animation: latido 1.5s ease-in-out infinite;
 }
 
-@keyframes heartbeat {
+@keyframes latido {
     0%, 100% { transform: scale(1); }
     25%       { transform: scale(1.2); }
     50%       { transform: scale(1); }
@@ -612,8 +613,13 @@ body {
         border-left: none;
         border-right: none;
         border-top: none;
-        padding: 0 0.75em;
+        padding: 0 1em;
         justify-content: space-between;
+        background-color: #272727;
+    }
+
+    .navLogo{
+        display: none;
     }
 
     .navCenter,
@@ -626,7 +632,7 @@ body {
     }
 
     .navMobile {
-        top: calc(5vh + 0px);
+        top: calc(10vh);
     }
 
     .mainTitle {
@@ -646,7 +652,7 @@ body {
 
     .projectsSection {
         margin: 0;
-        min-height: 250px;
+        min-height: 25vh;
     }
 
     .info-text {
@@ -693,13 +699,13 @@ body {
     }
 
     .socialLink {
-        width: 50px;
-        height: 50px;
+        width: 10vh;
+        height: 10vh;
     }
 
     .socialLink svg {
-        width: 24px;
-        height: 24px;
+        width: 4vh;
+        height: 4vh;
     }
 }
 
@@ -736,26 +742,7 @@ body {
         font-size: 0.8em;
         padding: 0.5em;
     }
-
-    .socialLink {
-        width: 45px;
-        height: 45px;
-    }
-
-    .socialLink svg {
-        width: 20px;
-        height: 20px;
-    }
-
     .footerText {
         font-size: 0.8em;
-    }
-}
-
-@media (prefers-reduced-motion: reduce) {
-    * {
-        animation-duration: 0.01ms !important;
-        animation-iteration-count: 1 !important;
-        transition-duration: 0.01ms !important;
     }
 }
